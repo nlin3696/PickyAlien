@@ -102,31 +102,31 @@ public class AlienFeedSystem : MonoBehaviour
                 //LEVEL 5: Color of Cactus and Color of Flower
 
             case 12: // Yellow Cactus with Red Flower
-                Debug.Log("level 5");
+                Debug.Log("level 5 case 1 of 5");
                 foodAlienWouldEat = "CactusYellow";
                 foodHardName = "RedFlower";
                 howManyAlienWants = 1;
                 break;
             case 13: // Green Cactus with Yellow Flower
-                Debug.Log("level 5");
+                Debug.Log("level 5 case 2 of 5");
                 foodAlienWouldEat = "CactusGreen";
                 foodHardName = "YellowFlower";
                 howManyAlienWants = 1;
                 break;
             case 14: // Blue Cactus with Red Flower
-                Debug.Log("level 5");
+                Debug.Log("level 5 case 3 of 5");
                 foodAlienWouldEat = "CactusBlue";
                 foodHardName = "RedFlower";
                 howManyAlienWants = 1;
                 break;
             case 15: // Red Cactus with Blue Flower
-                Debug.Log("level 5");
+                Debug.Log("level 5 case 4 of 5");
                 foodAlienWouldEat = "CactusRed";
                 foodHardName = "BlueFlower";
                 howManyAlienWants = 1;
                 break;
             case 16: // Purple Cactus with Yellow Flower
-                Debug.Log("level 5");
+                Debug.Log("level 5 case 5 of 5");
                 foodAlienWouldEat = "CactusPurple";
                 foodHardName = "YellowFlower";
                 howManyAlienWants = 1;

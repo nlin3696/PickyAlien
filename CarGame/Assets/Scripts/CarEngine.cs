@@ -22,12 +22,15 @@ public class CarEngine : MonoBehaviour
         //Debug.Log(playerCar.Speed);
 
         float soundPitchDiff = 1;
-        if (playerCar.Speed > 0.001f) soundPitchDiff = 1.1f;
-        if (playerCar.Speed > 0.04f) soundPitchDiff = 1.5f;
-        if (playerCar.Speed > 0.06f) soundPitchDiff = 1.8f;
-        if (playerCar.Speed > 0.07f) soundPitchDiff = 2f;
-        if (playerCar.Speed > 0.08f) soundPitchDiff = 2.5f;
+
+        if (playerCar.Speed <= 0.001f) { source.volume = 0.2f; }
+        if (playerCar.Speed > 0.001f) { soundPitchDiff = 1.1f; source.volume = 0.2f; }
+        if (playerCar.Speed > 0.04f) { soundPitchDiff = 1.5f; source.volume = 0.3f; }
+        if (playerCar.Speed > 0.06f) { soundPitchDiff = 1.8f; source.volume = 0.4f; }
+        if (playerCar.Speed > 0.07f) { soundPitchDiff = 2f; source.volume = 0.5f; }
+        if (playerCar.Speed > 0.08f) { soundPitchDiff = 2.5f; source.volume = 0.5f; }
 
         source.pitch = (playerCar.Speed * 35 / soundPitchDiff) * modifier + 0.6f;
+
     }
 }
