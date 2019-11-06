@@ -17,7 +17,7 @@ public class WheelSkid : MonoBehaviour
     void Start()
     {
         skidmarks = FindObjectOfType<Skidmarks>();
-        playerCar = GameObject.Find("Car").GetComponent<PlayerCar>();
+        playerCar = GameObject.Find("Car1").GetComponent<PlayerCar>(); 
         particleSystem1 = GameObject.Find("ParticleSystemL").GetComponent<ParticleSystem>();
         particleSystem2 = GameObject.Find("ParticleSystemR").GetComponent<ParticleSystem>();
     }

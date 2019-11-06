@@ -27,7 +27,7 @@ public class PlayerCar : MonoBehaviour
         SetRotationPoint();
         SetSideSlip();
 
-        // for debugging
+        // for testing
         if (Input.GetKeyDown(KeyCode.R))
         {
             Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
