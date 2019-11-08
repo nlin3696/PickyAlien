@@ -10,6 +10,7 @@ TagManager:
   - CactusYellow
   - CactusOrange
   - CactusPurple
+  - SandArea
   layers:
   - Default
   - TransparentFX
