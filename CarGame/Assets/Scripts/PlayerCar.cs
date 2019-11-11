@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; //for debugging
+using UnityEngine.UI;
 
 public class PlayerCar : MonoBehaviour
 {

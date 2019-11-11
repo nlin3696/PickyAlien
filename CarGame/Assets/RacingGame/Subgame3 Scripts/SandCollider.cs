@@ -20,7 +20,7 @@ public class SandCollider : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Rigidbody>().drag = 2.5f;
+            other.gameObject.GetComponent<Rigidbody>().drag = 2f;
             Debug.Log("In");
         }
     }

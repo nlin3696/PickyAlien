@@ -12,7 +12,7 @@ public class TitleButtons : MonoBehaviour
     public void PlayButton()
     {
         CameraFollow.isPlaying = true;
-        PlayerCar.isPlaying = true;
+        //PlayerCar.isPlaying = true;
         gamePlayUI.SetActive(true);
         startMenuUI.SetActive(false);
         arms.SetActive(true);
