@@ -11,6 +11,8 @@ TagManager:
   - CactusOrange
   - CactusPurple
   - SandArea
+  - Cactus
+  - Track
   layers:
   - Default
   - TransparentFX
