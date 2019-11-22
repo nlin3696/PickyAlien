@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 //Placed on each of the coins in the scene
-public class Coins : MonoBehaviour
+public class RaceCoins : MonoBehaviour
 {
     public static int coins;
     public AudioSource audioCoin;

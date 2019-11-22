@@ -53,7 +53,7 @@ public class TierManager : MonoBehaviour
            // if minutes <= tier minutes
               // if laptime <= tier seconds
                   //Set tier achieved text
-        if (Coins.coins >= tiers[i]._coinNumber)
+        if (RaceCoins.coins >= tiers[i]._coinNumber)
         {
             if (countdownObj.GetComponent<RaceCountdown>().minute < tiers[i]._minutes)
             {

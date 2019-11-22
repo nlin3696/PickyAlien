@@ -13,6 +13,8 @@ TagManager:
   - SandArea
   - Cactus
   - Track
+  - CarAI
+  - DifficultyButton
   layers:
   - Default
   - TransparentFX

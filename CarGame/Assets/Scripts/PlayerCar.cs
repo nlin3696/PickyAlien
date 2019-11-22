@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; //for debugging
 using UnityEngine.UI;
 
 public class PlayerCar : MonoBehaviour
@@ -21,19 +20,13 @@ public class PlayerCar : MonoBehaviour
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        isPlaying = false;
     }
 
     private void Update()
     {
         SetRotationPoint();
         SetSideSlip();
-
-        // for testing
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
-        }
-        //
     }
 
     void SetSideSlip()
@@ -59,8 +52,11 @@ public class PlayerCar : MonoBehaviour
         }
     }
 
+
+
     void FixedUpdate()
     {
+
         if (!isPlaying) return;
 
         _speed = _rigidbody.velocity.magnitude / 1000;

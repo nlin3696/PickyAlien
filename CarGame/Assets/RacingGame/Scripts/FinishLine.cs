@@ -20,7 +20,7 @@ public class FinishLine : MonoBehaviour
             finishedUI.SetActive(true);
             gamePlayUI.SetActive(false);
             countdownObj.GetComponent<RaceCountdown>().FinishedTime();
-            GameObject.Find("DefaultCoin").GetComponent<Coins>().SetCoins(); 
+            GameObject.Find("DefaultCoin").GetComponent<RaceCoins>().SetCoins(); 
         }
     }
 }
