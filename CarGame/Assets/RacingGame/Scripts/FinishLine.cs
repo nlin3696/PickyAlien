@@ -2,25 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinishLine : MonoBehaviour
-{
-    public GameObject countdownObj;
-    public GameObject finishedUI;
-    public GameObject gamePlayUI;
 
-    private void OnTriggerEnter(Collider other)
+namespace CarGame
+{
+    public class FinishLine : MonoBehaviour
     {
-        if(other.tag == "Player")
+        public GameObject countdownObj;
+        public GameObject finishedUI;
+        public GameObject gamePlayUI;
+
+        private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("finished!");
-            countdownObj.GetComponent<RaceCountdown>().gameFinished = true;
-            other.GetComponent<AudioSource>().Stop();
-            GameObject.Find("Main Camera").GetComponent<CameraFollow>().cameraHeight = 30f;
-            PlayerCar.isPlaying = false;
-            finishedUI.SetActive(true);
-            gamePlayUI.SetActive(false);
-            countdownObj.GetComponent<RaceCountdown>().FinishedTime();
-            GameObject.Find("DefaultCoin").GetComponent<RaceCoins>().SetCoins(); 
+            if (other.tag == "Player")
+            {
+                Debug.Log("finished!");
+                countdownObj.GetComponent<RaceCountdown>().gameFinished = true;
+                other.GetComponent<AudioSource>().Stop();
+                GameObject.Find("Main Camera").GetComponent<CameraFollow>().cameraHeight = 30f;
+                PlayerCar.isPlaying = false;
+                finishedUI.SetActive(true);
+                gamePlayUI.SetActive(false);
+                countdownObj.GetComponent<RaceCountdown>().FinishedTime();
+                GameObject.Find("DefaultCoin").GetComponent<RaceCoins>().SetCoins();
+            }
         }
     }
 }

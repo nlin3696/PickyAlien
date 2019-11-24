@@ -2,55 +2,57 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class RaceHighScore : MonoBehaviour
+namespace CarGame
 {
-    public string[] tierList;
-    public Text highscoreText;
-
-    // Start is called before the first frame update
-    void Start()
+    public class RaceHighScore : MonoBehaviour
     {
-        if (PlayerPrefs.GetString("RaceHighScore") != "")
-        {
-            highscoreText.text = "HIGHSCORE\n" +
-                PlayerPrefs.GetString("RaceHighScore");
-        }
-    }
+        public string[] tierList;
+        public Text highscoreText;
 
-    public void SetHighScore(int tierNum)
-    {
-        string currentHS = PlayerPrefs.GetString("RaceHighScore");
-        int i = 0;
-        while(i <= tierNum)
+        // Start is called before the first frame update
+        void Start()
         {
-            Debug.Log("Checking" + tierList[i]);
-            if (tierList[i] != currentHS && i >= FindHighscoreInt(currentHS))
+            if (PlayerPrefs.GetString("RaceHighScore") != "")
             {
-                PlayerPrefs.SetString("RaceHighScore", tierList[i]);
-                Debug.Log("New highscore: " + tierList[i]);
-                PlayerPrefs.Save();
+                highscoreText.text = "HIGHSCORE\n" +
+                    PlayerPrefs.GetString("RaceHighScore");
             }
-            i++;
         }
-    }
 
-    int FindHighscoreInt(string s)
-    {
-        int i = 0;
-        while(i < tierList.Length)
+        public void SetHighScore(int tierNum)
         {
-            if (tierList[i] == s)
+            string currentHS = PlayerPrefs.GetString("RaceHighScore");
+            int i = 0;
+            while (i <= tierNum)
             {
-                return i;
+                Debug.Log("Checking" + tierList[i]);
+                if (tierList[i] != currentHS && i >= FindHighscoreInt(currentHS))
+                {
+                    PlayerPrefs.SetString("RaceHighScore", tierList[i]);
+                    Debug.Log("New highscore: " + tierList[i]);
+                    PlayerPrefs.Save();
+                }
+                i++;
             }
-            i++;
         }
-        return 0;
-    }
 
-    string FindHighscoreString(int i)
-    {
-        return "";
+        int FindHighscoreInt(string s)
+        {
+            int i = 0;
+            while (i < tierList.Length)
+            {
+                if (tierList[i] == s)
+                {
+                    return i;
+                }
+                i++;
+            }
+            return 0;
+        }
+
+        string FindHighscoreString(int i)
+        {
+            return "";
+        }
     }
 }

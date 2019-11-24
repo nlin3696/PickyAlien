@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &4532593
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &23435683
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &36838626
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &73272516
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &78028215
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3173,7 +3173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &95361956
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3613,7 +3613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &109637274
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4058,7 +4058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &119084955
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4330,7 +4330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &124163592
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4515,7 +4515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &132868748
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5086,7 +5086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &142870514
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5879,7 +5879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &177498076
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6124,7 +6124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &188663900
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6230,7 +6230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &191992585
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11626,7 +11626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &231751986
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12489,7 +12489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &261024044
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13158,7 +13158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &277331874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15468,7 +15468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &392975483
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15574,7 +15574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &397717052
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15737,7 +15737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &411343966
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16262,7 +16262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &426022310
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17515,7 +17515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &518481072
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17863,7 +17863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &530112636
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18229,7 +18229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &533781202
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18873,7 +18873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &560227548
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29724,7 +29724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &623143611
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30475,7 +30475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &674645441
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31029,7 +31029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &690022649
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32361,7 +32361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &744487420
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32467,7 +32467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &748535513
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32871,7 +32871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &762831032
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33502,7 +33502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &811538099
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33723,7 +33723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &819205757
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34152,7 +34152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &840026744
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34329,7 +34329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &842476384
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34435,7 +34435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &842585460
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34892,7 +34892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &861744136
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34998,7 +34998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &866788372
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35660,7 +35660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &892732023
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36003,7 +36003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &897541540
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36766,7 +36766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &923694428
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37041,7 +37041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &936889651
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37147,7 +37147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &937170887
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38640,7 +38640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1007945104
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38806,7 +38806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1019766855
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39154,7 +39154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1028240657
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39414,7 +39414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1036620417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39660,7 +39660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1038068914
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40079,7 +40079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1050286962
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40413,7 +40413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1063801213
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41112,7 +41112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1077801144
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41341,7 +41341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1083043903
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41447,7 +41447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1089557949
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42164,7 +42164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1121759553
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42619,7 +42619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1132804854
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42725,7 +42725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1135754295
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42914,7 +42914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1143813129
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43274,7 +43274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1159262375
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44020,7 +44020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1175119143
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44780,7 +44780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1198373514
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45324,7 +45324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1219497335
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45436,7 +45436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1220739643
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45849,7 +45849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1228486655
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46107,7 +46107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1235976663
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46493,7 +46493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1252510301
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46858,7 +46858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1262954351
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48545,7 +48545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1334010515
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48871,7 +48871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1338672257
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49007,7 +49007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1345785238
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49432,7 +49432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1363318338
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51819,7 +51819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1474699234
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52505,7 +52505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1496879870
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53330,7 +53330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1551421008
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53564,7 +53564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1560833557
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54196,7 +54196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1571384107
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54519,7 +54519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1579060079
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54708,7 +54708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1586771896
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -55338,7 +55338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1597615797
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56331,7 +56331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1646572395
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56437,7 +56437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1650574219
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57742,7 +57742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1683106574
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -59665,7 +59665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1755513298
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -60003,7 +60003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1806829271
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -61371,7 +61371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1855332897
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -61624,7 +61624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1869773336
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -61730,7 +61730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1875467296
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -62939,7 +62939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1924695800
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -63391,7 +63391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1946580492
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -63497,7 +63497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1948750655
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -64187,7 +64187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1963963479
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -64894,7 +64894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1977550270
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -65298,7 +65298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &1986979279
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -65588,7 +65588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2001059885
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -66436,7 +66436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2028128502
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -66572,7 +66572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2040843452
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -66678,7 +66678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2042218037
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -67254,7 +67254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2083412023
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -67361,7 +67361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 0}
-  particleSystem: {fileID: 0}
+  particleSystem1: {fileID: 0}
 --- !u!65 &2084827434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68183,7 +68183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2106207641
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -68346,7 +68346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2127529211
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -68452,7 +68452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioCoin: {fileID: 2084827437}
-  particleSystem: {fileID: 231230263}
+  particleSystem1: {fileID: 231230263}
 --- !u!135 &2132294387
 SphereCollider:
   m_ObjectHideFlags: 0

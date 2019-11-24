@@ -3,47 +3,51 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Cheating : MonoBehaviour
+
+namespace CarGame
 {
-    public GameObject finish;
-
-    // Update is called once per frame
-    void Update()
+    public class Cheating : MonoBehaviour
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            RaceCoins.coins++;
-            Debug.Log("Coins: " + RaceCoins.coins);
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            RaceCoins.coins = RaceCoins.coins + 10;
-            Debug.Log("Coins: " + RaceCoins.coins);
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            GameObject.Find("Countdown").GetComponent<RaceCountdown>().minute++;
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            GameObject.Find("Countdown").GetComponent<RaceCountdown>().minute--;
-        }
+        public GameObject finish;
 
-        //Restart level
-        if (Input.GetKeyDown(KeyCode.R))
+        // Update is called once per frame
+        void Update()
         {
-            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
-        }
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                RaceCoins.coins++;
+                Debug.Log("Coins: " + RaceCoins.coins);
+            }
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                RaceCoins.coins = RaceCoins.coins + 10;
+                Debug.Log("Coins: " + RaceCoins.coins);
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                GameObject.Find("Countdown").GetComponent<RaceCountdown>().minute++;
+            }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                GameObject.Find("Countdown").GetComponent<RaceCountdown>().minute--;
+            }
 
-        //finish active
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            finish.SetActive(true);
-        }
+            //Restart level
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+            }
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            PlayerPrefs.SetString("RaceHighScore", "");
+            //finish active
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                finish.SetActive(true);
+            }
+
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                PlayerPrefs.SetString("RaceHighScore", "");
+            }
         }
     }
 }

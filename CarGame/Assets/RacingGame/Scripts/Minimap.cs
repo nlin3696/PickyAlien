@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Minimap : MonoBehaviour
+namespace CarGame
 {
-    public Transform player;
-
-    private void LateUpdate()
+    public class Minimap : MonoBehaviour
     {
-        Vector3 newPosition = player.position;
-        newPosition.y = player.position.y;
-        transform.position = newPosition;
+        public Transform player;
+
+        private void LateUpdate()
+        {
+            Vector3 newPosition = player.position;
+            newPosition.y = player.position.y;
+            transform.position = newPosition;
+        }
     }
 }

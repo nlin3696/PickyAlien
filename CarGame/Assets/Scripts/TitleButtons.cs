@@ -2,38 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class TitleButtons : MonoBehaviour
+using CarGame;
+namespace CarGame
 {
-    public GameObject startMenuUI;
-    public GameObject gamePlayUI;
-    public GameObject arms;
-
-    public AudioSource buttonSelect;
-
-    public void PlayButton()
+    public class TitleButtons : MonoBehaviour
     {
-        CameraFollow.isPlaying = true;
-        //PlayerCar.isPlaying = true;
-        gamePlayUI.SetActive(true);
-        startMenuUI.SetActive(false);
-        arms.SetActive(true);
-        buttonSelect.Play();
-        Debug.Log("Play");
-    }
-    public void QuitButton()
-    {
-        Debug.Log("Quit");
-        buttonSelect.Play();
-        Application.Quit();
+        public GameObject startMenuUI;
+        public GameObject gamePlayUI;
+        public GameObject arms;
 
-    }
+        public AudioSource buttonSelect;
 
-    //retry button in the GameOver screen
-    public void RetryButton()
-    {
-        buttonSelect.Play();
-        Debug.Log("Retry");
-        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+        public void PlayButton()
+        {
+            CameraFollow.isPlaying = true;
+            //PlayerCar.isPlaying = true;
+            gamePlayUI.SetActive(true);
+            startMenuUI.SetActive(false);
+            arms.SetActive(true);
+            buttonSelect.Play();
+            Debug.Log("Play");
+        }
+        public void QuitButton()
+        {
+            Debug.Log("Quit");
+            buttonSelect.Play();
+            Application.Quit();
+
+        }
+
+        //retry button in the GameOver screen
+        public void RetryButton()
+        {
+            buttonSelect.Play();
+            Debug.Log("Retry");
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+        }
     }
 }

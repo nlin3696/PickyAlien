@@ -4,62 +4,64 @@ using UnityEngine;
 
 //for course select
 using UnityEngine.UI;
-
-public class AIManager : MonoBehaviour
+namespace CarGame
 {
-
-    public static string clip;
-
-    // for course select
-    public GameObject playButton;
-
-    public AudioSource UIselection;
-
-    Animator panelAnim;
-
-    // Start is called before the first frame update
-    void Start()
+    public class AIManager : MonoBehaviour
     {
-        panelAnim = GameObject.Find("TitlePanels").GetComponent<Animator>();
-    }
 
-    public void EasyButton()
-    {
-        Debug.Log("EASY SELECTED");
-        clip = "easy";
-        panelAnim.Play("TitlePanels");
-        UIselection.Play();
-    }
+        public static string clip;
 
-    public void MediumButton()
-    {
-        Debug.Log("MEDIUM SELECTED");
-        clip = "medium";
-        panelAnim.Play("TitlePanels");
-        UIselection.Play();
-    }
+        // for course select
+        public GameObject playButton;
 
-    public void HardButton()
-    {
-        Debug.Log("HARD SELECTED");
-        clip = "hard";
-        panelAnim.Play("TitlePanels");
-        UIselection.Play();
-    }
+        public AudioSource UIselection;
 
-    public void ProButton()
-    {
-        Debug.Log("PRO SELECTED");
-        clip = "pro";
-        panelAnim.Play("TitlePanels");
-        UIselection.Play();
-    }
+        Animator panelAnim;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            panelAnim = GameObject.Find("TitlePanels").GetComponent<Animator>();
+        }
+
+        public void EasyButton()
+        {
+            Debug.Log("EASY SELECTED");
+            clip = "easy";
+            panelAnim.Play("TitlePanels");
+            UIselection.Play();
+        }
+
+        public void MediumButton()
+        {
+            Debug.Log("MEDIUM SELECTED");
+            clip = "medium";
+            panelAnim.Play("TitlePanels");
+            UIselection.Play();
+        }
+
+        public void HardButton()
+        {
+            Debug.Log("HARD SELECTED");
+            clip = "hard";
+            panelAnim.Play("TitlePanels");
+            UIselection.Play();
+        }
+
+        public void ProButton()
+        {
+            Debug.Log("PRO SELECTED");
+            clip = "pro";
+            panelAnim.Play("TitlePanels");
+            UIselection.Play();
+        }
 
 
-    //Course button will have course manager script later
-    public void DesertCourseButton()
-    {
-        playButton.SetActive(true);
-        UIselection.Play();
+        //Course button will have course manager script later
+        public void DesertCourseButton()
+        {
+            playButton.SetActive(true);
+            UIselection.Play();
+        }
     }
 }

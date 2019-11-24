@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class ActivateLoseUI : MonoBehaviour
+namespace CarGame
 {
-    public GameObject loseUI;
-
-    void Start()
+    public class ActivateLoseUI : MonoBehaviour
     {
-        loseUI.SetActive(true);
-    }
+        public GameObject loseUI;
 
+        void Start()
+        {
+            loseUI.SetActive(true);
+        }
+
+    }
 }

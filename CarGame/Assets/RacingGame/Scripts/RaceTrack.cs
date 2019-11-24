@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class RaceTrack : MonoBehaviour
+namespace CarGame
 {
-
-    public void OnTriggerEnter(Collider other)
+    public class RaceTrack : MonoBehaviour
     {
-        Debug.Log("track");
-        if (other.tag == "Player")
-        {
-            Debug.Log("on track");
-        }
-    }
 
+        public void OnTriggerEnter(Collider other)
+        {
+            Debug.Log("track");
+            if (other.tag == "Player")
+            {
+                Debug.Log("on track");
+            }
+        }
+
+    }
 }

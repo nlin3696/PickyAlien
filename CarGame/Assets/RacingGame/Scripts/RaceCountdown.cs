@@ -2,65 +2,67 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class RaceCountdown : MonoBehaviour
+namespace CarGame
 {
-    public float laptime;
-    public Text timerText;
-    public int minute;
-    [HideInInspector] public bool gameFinished;
-    public Text finishedTimeText;
-    
-    string highscore;
-
-    public float countdown = 3.49f;
-    public float currentTime = 0f;
-    void Start()
+    public class RaceCountdown : MonoBehaviour
     {
-        currentTime = countdown;
-        laptime = 0f;
-        gameFinished = false;
-    }
+        public float laptime;
+        public Text timerText;
+        public int minute;
+        [HideInInspector] public bool gameFinished;
+        public Text finishedTimeText;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (currentTime > 0)
+        string highscore;
+
+        public float countdown = 3.49f;
+        public float currentTime = 0f;
+        void Start()
         {
-            currentTime -= 1 * Time.deltaTime;
-            this.GetComponent<Text>().text = currentTime.ToString("0");
-
-            //if (currentTime <= 1f) { this.GetComponent<Text>().color = Color.red; }
-
+            currentTime = countdown;
+            laptime = 0f;
+            gameFinished = false;
         }
 
-        if (currentTime <= 0.5f)
+        // Update is called once per frame
+        void Update()
         {
-            this.GetComponent<Text>().text = "GO!";
-            currentTime -= 1 * Time.deltaTime;
-            PlayerCar.isPlaying = true;
-            if (currentTime <= -2f)
+            if (currentTime > 0)
             {
-                this.GetComponent<Text>().text = "";
+                currentTime -= 1 * Time.deltaTime;
+                this.GetComponent<Text>().text = currentTime.ToString("0");
+
+                //if (currentTime <= 1f) { this.GetComponent<Text>().color = Color.red; }
+
+            }
+
+            if (currentTime <= 0.5f)
+            {
+                this.GetComponent<Text>().text = "GO!";
+                currentTime -= 1 * Time.deltaTime;
+                PlayerCar.isPlaying = true;
+                if (currentTime <= -2f)
+                {
+                    this.GetComponent<Text>().text = "";
+                }
+            }
+
+            //Start timer
+            if (currentTime < 0f && !gameFinished)
+            {
+                laptime += 1 * Time.deltaTime;
+                if (laptime > 60f)
+                {
+                    minute++;
+                    laptime = 0f;
+                }
+                timerText.text = minute + ":" + laptime.ToString("00.00");
+
             }
         }
 
-        //Start timer
-        if (currentTime < 0f && !gameFinished)
+        public void FinishedTime()
         {
-            laptime += 1 * Time.deltaTime;
-            if (laptime > 60f)
-            {
-                minute++;
-                laptime = 0f;
-            }
-            timerText.text = minute + ":" + laptime.ToString("00.00");
-
+            finishedTimeText.text = "Time: " + minute + ":" + laptime.ToString("00.00");
         }
-    }
-
-    public void FinishedTime()
-    {
-        finishedTimeText.text = "Time: "+ minute + ":" + laptime.ToString("00.00");
     }
 }

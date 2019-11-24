@@ -2,26 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackGroundMusic : MonoBehaviour
+namespace CarGame
 {
-    
-    public AudioSource[] backgroudMusic;
-    private int n;
-
-    void Start()
+    public class BackGroundMusic : MonoBehaviour
     {
-        n = Random.Range(0,3); //0-2
-        backgroudMusic[n].Play();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (!backgroudMusic[n].isPlaying)
+        public AudioSource[] backgroudMusic;
+        private int n;
+
+        void Start()
         {
-            n++;
-            if (n > 2) { n = 0; }//reset n
+            n = Random.Range(0, 3); //0-2
             backgroudMusic[n].Play();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (!backgroudMusic[n].isPlaying)
+            {
+                n++;
+                if (n > 2) { n = 0; }//reset n
+                backgroudMusic[n].Play();
+            }
         }
     }
 }

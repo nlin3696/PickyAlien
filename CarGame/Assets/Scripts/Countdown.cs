@@ -34,7 +34,7 @@ public class Countdown : MonoBehaviour
             car.GetComponent<AudioSource>().Stop();
             gameOverUI.SetActive(true);
             gamePlayUI.SetActive(false);
-            PlayerCar.isPlaying = false;
+            //PlayerCar.isPlaying = false;
             //play game over sound
         } 
     }
