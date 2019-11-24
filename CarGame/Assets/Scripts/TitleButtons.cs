@@ -9,6 +9,8 @@ public class TitleButtons : MonoBehaviour
     public GameObject gamePlayUI;
     public GameObject arms;
 
+    public AudioSource buttonSelect;
+
     public void PlayButton()
     {
         CameraFollow.isPlaying = true;
@@ -16,11 +18,13 @@ public class TitleButtons : MonoBehaviour
         gamePlayUI.SetActive(true);
         startMenuUI.SetActive(false);
         arms.SetActive(true);
+        buttonSelect.Play();
         Debug.Log("Play");
     }
     public void QuitButton()
     {
         Debug.Log("Quit");
+        buttonSelect.Play();
         Application.Quit();
 
     }
@@ -28,6 +32,7 @@ public class TitleButtons : MonoBehaviour
     //retry button in the GameOver screen
     public void RetryButton()
     {
+        buttonSelect.Play();
         Debug.Log("Retry");
         Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
     }

@@ -12,20 +12,21 @@ public class WheelSkid : MonoBehaviour
     float SkidIntensity = 0.0f;  //change how often the skidmarks appear
     float ParticleIntensity = 0.001f;  //change how often the skidmarks appear
     ParticleSystem particleSystem1;
-    //ParticleSystem particleSystem2;
+    ParticleSystem particleSystem2;
 
     void Start()
     {
         skidmarks = FindObjectOfType<Skidmarks>();
-        playerCar = GameObject.Find("Car1").GetComponent<PlayerCar>();
+        //playerCar = GameObject.Find("Car1").GetComponent<PlayerCar>();
         particleSystem1 = GetComponentInChildren<ParticleSystem>();
-        //particleSystem2 = GameObject.Find("ParticleSystemR").GetComponent<ParticleSystem>();
+        particleSystem2 = GameObject.Find("ParticleSystemR").GetComponent<ParticleSystem>();
     }
 
     void LateUpdate()
     {
-        //lastSkidPos = skidmarks.AddSkidMark(transform.position, transform.up, intensityModifier, lastSkidPos); //skid no matter what
-        float intensity = playerCar.sideSlipAmount;
+        lastSkidPos = skidmarks.AddSkidMark(transform.position, transform.up, intensityModifier, lastSkidPos); //skid no matter what
+        //float intensity = playerCar.sideSlipAmount;
+        float intensity = 1f;
         if (intensity < 0) intensity = -intensity; //only positive intensity
 
         if (intensity > SkidIntensity) //skid only if intense enough

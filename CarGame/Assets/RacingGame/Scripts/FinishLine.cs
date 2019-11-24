@@ -14,7 +14,7 @@ public class FinishLine : MonoBehaviour
         {
             Debug.Log("finished!");
             countdownObj.GetComponent<RaceCountdown>().gameFinished = true;
-            GameObject.Find("Car1").GetComponent<AudioSource>().Stop();
+            other.GetComponent<AudioSource>().Stop();
             GameObject.Find("Main Camera").GetComponent<CameraFollow>().cameraHeight = 30f;
             PlayerCar.isPlaying = false;
             finishedUI.SetActive(true);

@@ -11,7 +11,7 @@ public class Skidmarks : MonoBehaviour {
 
     // END INSPECTOR SETTINGS
 
-    const int MAX_MARKS = 4096; //2048; // Max number of marks total for everyone together
+    const int MAX_MARKS = 8192; //4096; //2048; // Max number of marks total for everyone together
 	const float MARK_WIDTH = 0.15f; // Width of the skidmarks. Should match the width of the wheels
 	const float GROUND_OFFSET = 0.02f;  // Distance above surface in metres
 	const float MIN_DISTANCE = 0.25f; // Distance between skid texture sections in metres. Bigger = better performance, less smooth

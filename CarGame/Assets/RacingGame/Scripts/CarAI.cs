@@ -15,16 +15,11 @@ public class CarAI : MonoBehaviour
     public AnimationClip proAI;
     string clip;
 
-    // for course select
-    public GameObject playButton;
-
-    Animator panelAnim;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
-        panelAnim = GameObject.Find("TitlePanels").GetComponent<Animator>();
         startedAnim = false;
         //EasyButton(); //default easy
     }
@@ -34,43 +29,25 @@ public class CarAI : MonoBehaviour
     {
         if (PlayerCar.isPlaying && !startedAnim)
         {
+            if (AIManager.clip == "easy")
+            {
+                clip = easyAI.name.ToString();
+            }
+            if (AIManager.clip == "medium")
+            {
+                clip = mediumAI.name.ToString();
+            }
+            if (AIManager.clip == "hard")
+            {
+                clip = hardAI.name.ToString();
+            }
+            if (AIManager.clip == "pro")
+            {
+                clip = proAI.name.ToString();
+            }
             anim.Play(clip);
             startedAnim = true;
         }
     }
 
-    public void EasyButton()
-    {
-        Debug.Log("EASY SELECTED");
-        clip = easyAI.name.ToString();
-        panelAnim.Play("TitlePanels");
-    }
-
-    public void MediumButton()
-    {
-        Debug.Log("MEDIUM SELECTED");
-        clip = mediumAI.name.ToString();
-        panelAnim.Play("TitlePanels");
-    }
-
-    public void HardButton()
-    {
-        Debug.Log("HARD SELECTED");
-        clip = hardAI.name.ToString();
-        panelAnim.Play("TitlePanels");
-    }
-
-    public void ProButton()
-    {
-        Debug.Log("PRO SELECTED");
-        clip = proAI.name.ToString();
-        panelAnim.Play("TitlePanels");
-    }
-
-
-    //Course button will have course manager script later
-    public void DesertCourseButton()
-    {
-        playButton.SetActive(true);
-    }
 }

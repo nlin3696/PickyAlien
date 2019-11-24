@@ -15,6 +15,7 @@ TagManager:
   - Track
   - CarAI
   - DifficultyButton
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
