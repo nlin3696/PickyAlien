@@ -4984,7 +4984,6 @@ GameObject:
   - component: {fileID: 2736969388015057000}
   - component: {fileID: 2736969388015057007}
   - component: {fileID: 2736969388015057013}
-  - component: {fileID: 4912190755932530948}
   - component: {fileID: 2736969387694662763}
   m_Layer: 0
   m_Name: CarAI_Blue
@@ -5112,29 +5111,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3749444888755857708}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9f74aab8cc32b6478cbeb3c5e3314a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easyAI: {fileID: 7400000, guid: 80bbdc2d3eb2996448c024b20727c0e3, type: 2}
-  mediumAI: {fileID: 7400000, guid: 0b4f8acb36c7e634fb712e41c6ceb97f, type: 2}
-  hardAI: {fileID: 7400000, guid: e23ac5946543a934e9c756779f3ed463, type: 2}
-  proAI: {fileID: 7400000, guid: ad8ee5d1d38cd4f448f3bfdc5fab64e4, type: 2}
-  playButton: {fileID: 0}
---- !u!114 &4912190755932530948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3749444888755857708}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58df8a2f452b7dc498553e03b5143419, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loseUI: {fileID: 0}
+  easyAI: {fileID: 7400000, guid: 63302a8fc94dbab46b0ca340ab37d733, type: 2}
+  mediumAI: {fileID: 7400000, guid: 3268fcc359c2cc944983998ffcbe4043, type: 2}
+  hardAI: {fileID: 7400000, guid: a405011d7e7d73549b326e55f486e211, type: 2}
+  proAI: {fileID: 7400000, guid: e07e353415a86d444939369bf97471e6, type: 2}
 --- !u!114 &2736969387694662763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10068,10 +10053,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MinimapCar
       objectReference: {fileID: 0}
-    - target: {fileID: 140316, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 474748, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10129,13 +10110,13 @@ PrefabInstance:
       value: 25.6
       objectReference: {fileID: 0}
     - target: {fileID: 2392048, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0e63ba3dc8a90654f9ba15f48c4bcd6c, type: 2}
-    - target: {fileID: 2392048, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2392048, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0e63ba3dc8a90654f9ba15f48c4bcd6c, type: 2}
     - target: {fileID: 2389998, guid: 2cd5d52bec1bbd74aa18e7ef142a8cd0, type: 3}
       propertyPath: m_CastShadows
       value: 0

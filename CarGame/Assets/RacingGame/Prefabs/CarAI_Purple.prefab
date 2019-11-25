@@ -5950,7 +5950,6 @@ GameObject:
   - component: {fileID: 3319598380875137757}
   - component: {fileID: 3319598380875137754}
   - component: {fileID: 3319598380875137728}
-  - component: {fileID: 5747056553653425073}
   - component: {fileID: 3319598381234364126}
   m_Layer: 0
   m_Name: CarAI_Purple
@@ -6083,24 +6082,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f74aab8cc32b6478cbeb3c5e3314a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easyAI: {fileID: 7400000, guid: 80bbdc2d3eb2996448c024b20727c0e3, type: 2}
-  mediumAI: {fileID: 7400000, guid: 0b4f8acb36c7e634fb712e41c6ceb97f, type: 2}
-  hardAI: {fileID: 7400000, guid: e23ac5946543a934e9c756779f3ed463, type: 2}
-  proAI: {fileID: 7400000, guid: ad8ee5d1d38cd4f448f3bfdc5fab64e4, type: 2}
-  playButton: {fileID: 0}
---- !u!114 &5747056553653425073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4603393816336356249}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58df8a2f452b7dc498553e03b5143419, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loseUI: {fileID: 0}
+  easyAI: {fileID: 7400000, guid: 29158ea30a04e884e82d62c01e838112, type: 2}
+  mediumAI: {fileID: 7400000, guid: 14e1344851a655e4f8c3b3b5793eb2b2, type: 2}
+  hardAI: {fileID: 7400000, guid: 82406855232501f4a95ddba0e3470ac0, type: 2}
+  proAI: {fileID: 7400000, guid: b8f41cd1a3d1b44409a439fa9f244c41, type: 2}
 --- !u!114 &3319598381234364126
 MonoBehaviour:
   m_ObjectHideFlags: 0

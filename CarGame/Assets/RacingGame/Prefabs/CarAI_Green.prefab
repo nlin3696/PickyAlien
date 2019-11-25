@@ -5876,7 +5876,6 @@ GameObject:
   - component: {fileID: 3648109375772850980}
   - component: {fileID: 3648109375772850979}
   - component: {fileID: 3648109375772851001}
-  - component: {fileID: 6012446760342383176}
   - component: {fileID: 3648109377100949287}
   m_Layer: 0
   m_Name: CarAI_Green
@@ -5970,7 +5969,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2545570957935077984}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.9
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6010,23 +6009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   easyAI: {fileID: 7400000, guid: 80bbdc2d3eb2996448c024b20727c0e3, type: 2}
-  mediumAI: {fileID: 7400000, guid: 0b4f8acb36c7e634fb712e41c6ceb97f, type: 2}
-  hardAI: {fileID: 7400000, guid: e23ac5946543a934e9c756779f3ed463, type: 2}
-  proAI: {fileID: 7400000, guid: ad8ee5d1d38cd4f448f3bfdc5fab64e4, type: 2}
-  playButton: {fileID: 0}
---- !u!114 &6012446760342383176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2545570957935077984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58df8a2f452b7dc498553e03b5143419, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loseUI: {fileID: 0}
+  mediumAI: {fileID: 7400000, guid: ff0a3f563f3f69d42bae11612120de5a, type: 2}
+  hardAI: {fileID: 7400000, guid: d0b04416a20e1bd4bb7e69f26e88a61a, type: 2}
+  proAI: {fileID: 7400000, guid: a37aba7d002222044b7ebd1f22c21acb, type: 2}
 --- !u!114 &3648109377100949287
 MonoBehaviour:
   m_ObjectHideFlags: 0
